@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## 0.1.1 - 2018-02-19
+### Added
+- Disclaimer, containing author and licensing information, has been added to the top of eyes.sh
+
 ## 0.1.0 - 2018-02-19
 ### Added
 - README.md file to document eyes

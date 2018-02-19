@@ -1,4 +1,10 @@
 #!/bin/bash
+#
+# Created by Noah Altunian (github.com/naltun)
+# This software is Free Software. For more information on Free/Libre, Open Source Software,
+# please read more at wikipedia.org/wiki/Free_and_open-source_software
+#
+# Happy hacking
 
 # banner created with figlet.js (github.com/patorjk/figlet.js)
 banner() {
@@ -7,7 +13,7 @@ banner() {
 	echo ' | |__ _   _  ___  ___  			'
 	echo ' |  __| | | |/ _ \/ __| 			'
 	echo ' | |__| |_| |  __/\__ \ 			'
-	echo ' \____/\__, |\___||___/ v0.1.0'
+	echo ' \____/\__, |\___||___/ v0.1.1'
 	echo '        __/ |           			'
 	echo '       |____/           			'
 	echo
