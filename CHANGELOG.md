@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- Add an 'export information' feature, which saves all gathered information to a file, organized around domains/IP addresses
+
+## 0.1.2 - 2018-02-19
+### Added
+- Unreleased feature -- save gathered information in a file, organized around domains/IP addresses
 
 ## 0.1.1 - 2018-02-19
 ### Added
