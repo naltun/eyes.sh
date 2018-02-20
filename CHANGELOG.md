@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 - Add an 'export information' feature, which saves all gathered information to a file, organized around domains/IP addresses
 
+## 0.1.4 - 2018-02-20
+### Changed
+- When making a robots.txt scan, `eyes` will now warn the user that S/he will make a direct call to the target. Issue raised by u/deezycaprese (Reddit user -- thanks pal!)
+
 ## 0.1.3 - 2018-02-20
 ### Removed
 - shodan.io API key, which was present in github.com/UltimateHackers/ReconDog. No GitHub issue, no documentation, and no code comments

@@ -13,7 +13,7 @@ banner() {
 	echo ' | |__ _   _  ___  ___  			'
 	echo ' |  __| | | |/ _ \/ __| 			'
 	echo ' | |__| |_| |  __/\__ \ 			'
-	echo ' \____/\__, |\___||___/ v0.1.3'
+	echo ' \____/\__, |\___||___/ v0.1.4'
 	echo '        __/ |           			'
 	echo '       |____/           			'
 	echo
@@ -132,10 +132,19 @@ eyes() {
 		;;
 
 		'7')
-			read -rp 'Enter domain (without protocol): ' target
-			robot="http://$target/robots.txt"
-			curl --silent "$robot"
-			display
+			read -p 'This feature makes a direct call to the target -- would you like to continue? [Y/n] ' answer
+			if [[ "$answer" = 'y' ]]; then
+				read -rp 'Enter domain (without protocol): ' target
+				robot="http://$target/robots.txt"
+				curl --silent "$robot"
+				display
+			elif [[ "$answer" = 'n' ]]; then
+				echo 'Going back to menu...'
+				display
+			else
+				echo 'Your choice is invalid.'
+				display
+			fi
 		;;
 
 		'8')
