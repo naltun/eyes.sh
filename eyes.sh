@@ -13,7 +13,7 @@ banner() {
 	echo ' | |__ _   _  ___  ___  			'
 	echo ' |  __| | | |/ _ \/ __| 			'
 	echo ' | |__| |_| |  __/\__ \ 			'
-	echo ' \____/\__, |\___||___/ v0.1.2'
+	echo ' \____/\__, |\___||___/ v0.1.3'
 	echo '        __/ |           			'
 	echo '       |____/           			'
 	echo
@@ -80,7 +80,7 @@ eyes() {
 
 		'6')
 			read -rp 'Enter IP address: ' target
-			honey="https://api.shodan.io/labs/honeyscore/$target?key=C23OXE0bVMrul2YeqcL7zxb6jZ4pj2by"
+			honey="https://api.shodan.io/labs/honeyscore/$target?key="
 			phoney=$(curl --silent "$honey")
 			case "$phoney" in
 				'0.0')
