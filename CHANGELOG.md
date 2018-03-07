@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 - Add an 'export information' feature, which saves all gathered information to a file, organized around domains/IP addresses
 
+- Exit gracefully via ctrl-C
+
+## 0.1.5 - 2018-03-06
+### Added
+- Unreleased feature -- exit gracefully via ctrl-C
+
 ## 0.1.4 - 2018-02-20
 ### Changed
 - When making a robots.txt scan, `eyes` will now warn the user that S/he will make a direct call to the target. Issue raised by u/deezycaprese (Reddit user -- thanks pal!)
