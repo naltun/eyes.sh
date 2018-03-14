@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Exit gracefully via ctrl-C
 
+## 0.2.0 - 2018-03-14
+### Added
+- Domain-to-IP address lookup feature. Find a domain's IP address.
+
 ## 0.1.5 - 2018-03-06
 ### Added
 - Unreleased feature -- exit gracefully via ctrl-C

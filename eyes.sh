@@ -13,7 +13,7 @@ banner() {
 	echo ' | |__ _   _  ___  ___  			'
 	echo ' |  __| | | |/ _ \/ __| 			'
 	echo ' | |__| |_| |  __/\__ \ 			'
-	echo ' \____/\__, |\___||___/ v0.1.5'
+	echo ' \____/\__, |\___||___/ v0.2.0'
 	echo '        __/ |           			'
 	echo '       |____/           			'
 	echo
@@ -30,8 +30,9 @@ menu() {
 	echo '8.  Link Grabber'
 	echo '9.  IP Location Finder'
 	echo '10. Traceroute'
-	echo '11. About program'
-	echo '12. Exit program'
+	echo '11. Domain-to-IP Lookup'
+	echo '12. About program'
+	echo '13. Exit program'
 }
 
 eyes() {
@@ -169,13 +170,23 @@ eyes() {
 		;;
 
 		'11')
+			read -p 'Enter a domain: ' target
+			if [ -x "$(command -v dig)" ]; then
+				echo "$target's IP address is" $(dig +short "$target")
+			else
+				echo 'The dig CLI tool is required for this feature. Going back to menu.'
+			fi
+			display
+		;;
+
+		'12')
 			echo 'This program was created by Noah Altunian, and was adapted' \
 					 'from github.com/UltimateHackers/ReconDog. It is licensed'   \
 					 'under the GNU GPL v2.'
 			display
 		;;
 
-		'12')
+		'13')
 			echo 'Bye'
 			exit 0
 		;;
