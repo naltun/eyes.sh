@@ -9,32 +9,38 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Exit gracefully via ctrl-C
 
-## 0.2.0 - 2018-03-14
+- Set default IP value for IP-specific tools after Domain-to-IP lookup is performed
+
+## [0.2.1] - 2018-03-14
+### Added
+- Unreleased feature -- set default IP values for all IP-specific tools after performing a Domain-to-IP lookup
+
+## [0.2.0] - 2018-03-14
 ### Added
 - Domain-to-IP address lookup feature. Find a domain's IP address.
 
-## 0.1.5 - 2018-03-06
+## [0.1.5] - 2018-03-06
 ### Added
 - Unreleased feature -- exit gracefully via ctrl-C
 
-## 0.1.4 - 2018-02-20
+## [0.1.4] - 2018-02-20
 ### Changed
 - When making a robots.txt scan, `eyes` will now warn the user that S/he will make a direct call to the target. Issue raised by u/deezycaprese (Reddit user -- thanks pal!)
 
-## 0.1.3 - 2018-02-20
+## [0.1.3] - 2018-02-20
 ### Removed
 - shodan.io API key, which was present in github.com/UltimateHackers/ReconDog. No GitHub issue, no documentation, and no code comments
 	suggested that this API key be removed, so I kept it in. I changed my mind on this; visit shodan.io, register, and obtain an API key.
 
-## 0.1.2 - 2018-02-19
+## [0.1.2] - 2018-02-19
 ### Added
 - Unreleased feature -- save gathered information in a file, organized around domains/IP addresses
 
-## 0.1.1 - 2018-02-19
+## [0.1.1] - 2018-02-19
 ### Added
 - Disclaimer, containing author and licensing information, has been added to the top of eyes.sh
 
-## 0.1.0 - 2018-02-19
+## [0.1.0] - 2018-02-19
 ### Added
 - README.md file to document eyes
 - CHANGELOG.md file to record any/all future changes to eyes
