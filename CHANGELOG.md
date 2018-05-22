@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Set default IP value for IP-specific tools after Domain-to-IP lookup is performed
 
+## [0.2.2] - 2018-05-22
+### Changed
+- Fixed BASH bug, prohibiting eyes from reading if a domain is Cloudflare-protected
+
 ## [0.2.1] - 2018-03-14
 ### Added
 - Unreleased feature -- set default IP values for all IP-specific tools after performing a Domain-to-IP lookup

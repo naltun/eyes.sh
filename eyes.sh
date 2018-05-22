@@ -13,7 +13,7 @@ banner() {
 	echo ' | |__ _   _  ___  ___  			'
 	echo ' |  __| | | |/ _ \/ __| 			'
 	echo ' | |__| |_| |  __/\__ \ 			'
-	echo ' \____/\__, |\___||___/ v0.2.1'
+	echo ' \____/\__, |\___||___/ v0.2.2    '
 	echo '        __/ |           			'
 	echo '       |____/           			'
 	echo
@@ -50,7 +50,7 @@ eyes() {
 			dns="http://api.hackertarget.com/dnslookup/?q=$target"
 			curl --silent "$dns"
 			echo
-			if [[ "$dns" = *'cloudflare'* ]]; then
+			if [[ "$dns" == *cloudflare* ]]; then
 				echo 'Cloudflare detected'
 			else
 				echo "$target is *not* protected by Cloudflare"
