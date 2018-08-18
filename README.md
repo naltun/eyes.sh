@@ -12,3 +12,7 @@ Simply clone this repo or obtain a copy of `eyes.sh` and execute the file (`$ ba
 _eyes_ is proudly licensed under the GNU GPL v2. For more information on Free/Libre, Open Source Software, please read [Wikipedia](https://en.wikipedia.org/wiki/Free_and_open-source_software).
 
 Written by Noah Altunian (github.com/naltun)
+
+## DISCLAIMER
+This project is considered deprecated. Please refer to the latest iteration of Eyes, programmed in Golang. You can find it at [GitHub](https://github.com/naltun/eyes).
+
