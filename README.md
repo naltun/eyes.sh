@@ -14,5 +14,5 @@ _eyes.sh_ is proudly licensed under the GNU GPL v2. For more information on Free
 Written by Noah Altunian (github.com/naltun)
 
 ## DISCLAIMER
-This project has a sister project, called _eyes.sh_, and is written in Golang. It is being built using a native API, as opposed to using third-party RESTful service(s). You can find it at [GitHub](https://github.com/naltun/eyes).
+This project has a sister project, called _eyes_, and is written in Golang. It is being built using a native API, as opposed to using third-party RESTful service(s). You can find it at [GitHub](https://github.com/naltun/eyes).
 
